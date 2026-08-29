@@ -3,7 +3,12 @@ name = "hexagon"
 version = "0.1.0"
 description = "Hexagonal architecture meets agentic AI — ports, adapters, and autonomous agents"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "anthropic>=1.2.0",
+    "mcp>=2.1.1",
+    "openai>=3.6.0",
+    "redis[asyncio]>=8.1.0",
+]
 
 [project.optional-dependencies]
 dev = [
