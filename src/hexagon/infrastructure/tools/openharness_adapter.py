@@ -12,7 +12,6 @@ from __future__ import annotations
 from typing import TYPE_CHECKING, Any
 
 from hexagon.domain.entities.agent_response import AgentResponse
-from hexagon.domain.entities.task import Task
 from hexagon.domain.ports.outbound.agent_collaboration import SubAgentRequest
 
 if TYPE_CHECKING:
